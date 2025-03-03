@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cc Beauty Products Official</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cc Beauty Products Official</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <input type="text" placeholder="Search products..." class="search-bar">
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Discover Your Beauty</h2>
+        <p>Shop the best skincare, makeup, haircare, and more!</p>
+    </section>
+    
+    <section id="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="featured1.jpg" alt="Featured Product 1">
+                <h3>Featured Product Name</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="shop">
+        <h2>Shop Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product Name</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"Amazing products! My skin has never felt better." - Jane Doe</p>
+        <p>"Fast shipping and great customer service." - John Smith</p>
+    </section>
+    
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Located at Ruiru Spurmall, we provide high-quality beauty products for everyone. Explore our range and enhance your glow!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@ccbeauty.com</p>
+        <p>Phone: +254 745 799 920</p>
+        <p>Follow us on social media!</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </section>
+    
+    <div id="live-chat">
+        <button>Chat with Us</button>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Cc Beauty Products Official. All rights reserved.</p>
+    </footer>
+</body>
+</html>
